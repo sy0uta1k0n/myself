@@ -9,7 +9,7 @@ module.exports = {
   entry: './src/ts/index.tsx',
   output: {
     path: path.resolve(__dirname, './'),
-    filename: 'index.js'
+    filename: 'index.[chunkhash].js',
   },
   plugins: [
     new webpack.ProgressPlugin(),
