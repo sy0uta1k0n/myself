@@ -25,6 +25,7 @@ export const personal = {
             time: '2017/6-至今',
             position: '高级前端工程师',
             description: [
+                '美团餐饮SaaS营销',
                 '点评商业化活动',
                 '点评用户增长',
                 '点评社区',
@@ -50,8 +51,13 @@ export const personal = {
     projectInfo: {
         title: '项目简介: ',
         list: [{
+            name: '美团餐饮SaaS营销',
+            time: '2020/10-至今',
+            description: '主R业务和小程序装修项目管理',
+            detail: `业务模块主要负责扫码点餐长列表模块，以及小程序装修团队中的ScrumMaster。`
+        }, {
             name: '点评商业活动',
-            time: '2020/7-至今',
+            time: '2020/7-2020/10',
             description: '主R业务和基础功能组件研发',
             detail: `商业化定制活动中，会产生大量重复劳动，因此将常用模块抽成公共组件可以减少时间消耗，提高生产效率。
                 在此之上，抽出基础功能组件提供给其他业务方使用。`
